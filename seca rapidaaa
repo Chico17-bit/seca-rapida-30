@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seca Rápida 30</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #49c39e, #31a286);
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .mockup {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .mockup img {
+      width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .benefits {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .benefits h2 {
+      color: #31a286;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li::before {
+      content: "✅";
+      margin-right: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      background-color: #31a286;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #2b8a73;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Seca Rápida 30</h1>
+    <p>Emagreça com saúde e sem sofrimento em apenas 30 dias</p>
+  </header>
+
+  <div class="container">
+    <div class="mockup">
+      <img src="https://i.imgur.com/Jn8GdVR.png" alt="Mockup do E-book Seca Rápida">
+    </div>
+
+    <div class="benefits">
+      <h2>O que vais encontrar no e-book:</h2>
+      <ul>
+        <li>Plano alimentar para 30 dias</li>
+        <li>Receitas saudáveis e práticas</li>
+        <li>Exercícios simples para fazer em casa</li>
+        <li>Dicas para manter o peso depois da perda</li>
+        <li>Bônus exclusivos e acesso VIP</li>
+      </ul>
+    </div>
+
+    <div class="cta">
+      <a href="https://hotmart.com" target="_blank">Quero Começar Agora!</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Seca Rápida 30 — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
