@@ -3,106 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Seca Rápida 30</title>
+  <title>Seca Rápida - Emagreça com Saúde</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
+    * {
+      box-sizing: border-box;
       padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #ffffff;
       color: #333;
-      background-color: #f5f5f5;
     }
     header {
-      background-color: #3fb984;
+      background: linear-gradient(135deg, #27ae60, #2ecc71);
       color: white;
-      padding: 30px;
+      padding: 60px 20px;
       text-align: center;
     }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #2e8b65;
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
     }
-    nav a {
-      color: white;
-      padding: 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      background-color: #256b50;
+    header p {
+      font-size: 1.2em;
     }
     .container {
-      padding: 20px;
-      max-width: 1000px;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .mockup {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .mockup img {
+      width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    }
+    .benefits {
+      margin-bottom: 50px;
+    }
+    .benefits h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .benefits ul {
+      list-style: none;
+      padding-left: 0;
+      max-width: 700px;
       margin: auto;
     }
+    .benefits li {
+      margin: 15px 0;
+      font-size: 1.1em;
+      padding-left: 25px;
+      position: relative;
+    }
+    .benefits li::before {
+      content: '✔';
+      color: #27ae60;
+      position: absolute;
+      left: 0;
+    }
     .cta-button {
-      display: inline-block;
-      padding: 15px 25px;
-      background-color: #3fb984;
+      display: block;
+      background: #27ae60;
       color: white;
+      text-align: center;
+      font-size: 1.3em;
       font-weight: bold;
+      padding: 20px;
+      margin: 40px auto;
+      width: fit-content;
+      border-radius: 50px;
       text-decoration: none;
-      border-radius: 8px;
-      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .cta-button:hover {
+      background: #1e8449;
+    }
+    .testimonials {
+      background: #f7f7f7;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .testimonials h2 {
+      font-size: 2em;
+      margin-bottom: 40px;
+    }
+    .testimonial {
+      display: inline-block;
+      width: 280px;
+      margin: 20px;
+      vertical-align: top;
+    }
+    .testimonial img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .testimonial p {
+      font-size: 0.95em;
+      color: #555;
     }
     footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #3fb984;
+      background: #2ecc71;
       color: white;
-      margin-top: 40px;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Seca Rápida 30</h1>
-    <p>Transforma o teu corpo em 30 dias — com saúde, sabor e equilíbrio!</p>
+    <h1>Seca Rápida</h1>
+    <p>Transforma o teu corpo em apenas 30 dias com um método simples, leve e saudável.</p>
   </header>
 
-  <nav>
-    <a href="#ebook">O E-book</a>
-    <a href="#blog">Blog</a>
-    <a href="#sobre">Sobre</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
+  <section class="container">
+    <div class="mockup">
+      <img src="https://via.placeholder.com/300x420.png?text=Ebook+Seca+R%C3%A1pida" alt="Mockup do Ebook">
+    </div>
 
-  <div class="container" id="ebook">
-    <h2>📘 O E-book "Seca Rápida"</h2>
-    <p>Um guia prático e realista para perder peso com saúde. São 30 dias de receitas, dicas e plano alimentar adaptado para transformar o teu corpo sem dietas malucas!</p>
-    <ul>
-      <li>Plano alimentar com receitas para 30 dias</li>
-      <li>Exercícios simples para fazer em casa</li>
-      <li>Dicas para acelerar o metabolismo</li>
-      <li>Bônus exclusivos (planner, checklist, vídeo e grupo VIP)</li>
-    </ul>
-    <a class="cta-button" href="https://hotmart.com">Comprar Agora</a>
-  </div>
+    <div class="benefits">
+      <h2>O que vais encontrar:</h2>
+      <ul>
+        <li>Plano alimentar completo com 30 dias de refeições</li>
+        <li>Receitas simples, saborosas e saudáveis</li>
+        <li>Exercícios práticos para fazer em casa</li>
+        <li>Bônus exclusivos e materiais extras</li>
+        <li>Resultados reais, com foco em saúde e bem-estar</li>
+      </ul>
+    </div>
 
-  <div class="container" id="blog">
-    <h2>📝 Blog - Dicas de Emagrecimento</h2>
-    <p><strong>📌 5 Erros Que Estão a Sabotar o Teu Emagrecimento</strong><br>Descobre como pequenos hábitos podem travar o teu progresso.</p>
-    <p><strong>💧 3 Bebidas Naturais Para Ajudar a Queimar Gordura</strong><br>Receitas simples e refrescantes que podes incluir no teu dia a dia.</p>
-    <p><strong>🥗 O Que Comer à Noite Para Emagrecer?</strong><br>Alternativas leves e saborosas que não travam a queima de gordura.</p>
-  </div>
+    <a class="cta-button" href="https://hotmart.com/link-do-produto" target="_blank">Quero Começar Agora!</a>
+  </section>
 
-  <div class="container" id="sobre">
-    <h2>🙋 Sobre a Seca Rápida 30</h2>
-    <p>O projeto <strong>Seca Rápida 30</strong> foi criado para quem quer emagrecer sem fórmulas mágicas. Tudo foi pensado para ser realista, acessível e funcional — com foco total nos resultados e na tua saúde.</p>
-    <p>Não importa se já tentaste antes. Aqui, o compromisso é contigo: foco, consistência e leveza!</p>
-  </div>
-
-  <div class="container" id="contacto">
-    <h2>📬 Contacto</h2>
-    <p>Tem dúvidas ou quer falar com a equipa da Seca Rápida 30?</p>
-    <p>📧 Email: <a href="mailto:contato@secarapida30.com">contato@secarapida30.com</a></p>
-    <p>📱 WhatsApp: <a href="https://wa.me/351912345678">Fala connosco</a></p>
-  </div>
+  <section class="testimonials">
+    <h2>Resultados de Quem Já Usou</h2>
+    <div class="testimonial">
+      <img src="https://via.placeholder.com/280x360.png?text=Antes+e+Depois+1" alt="Antes e Depois 1">
+      <p>"Perdi 6kg em 1 mês e nunca me senti tão bem!"</p>
+    </div>
+    <div class="testimonial">
+      <img src="https://via.placeholder.com/280x360.png?text=Antes+e+Depois+2" alt="Antes e Depois 2">
+      <p>"O plano é fácil de seguir e realmente funciona."</p>
+    </div>
+    <div class="testimonial">
+      <img src="https://via.placeholder.com/280x360.png?text=Antes+e+Depois+3" alt="Antes e Depois 3">
+      <p>"Minha energia e autoestima estão no topo!"</p>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 Seca Rápida 30 · Todos os direitos reservados</p>
+    &copy; 2025 Seca Rápida. Todos os direitos reservados.
   </footer>
 </body>
 </html>
